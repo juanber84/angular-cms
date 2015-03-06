@@ -8,7 +8,8 @@
             $stateProvider
                 .state('main', {
                     url: '/',
-                    template: '<div><span ">{{greetings}} <br /><br /><input ng-model="greetings"></div>'
+                    templateUrl: 'app/views/default.html',
+                    //template: '<div><span ">{{greetings}} <br /><br /><input ng-model="greetings"></div>'
                 });
 
             // Activate Mode HTML5
